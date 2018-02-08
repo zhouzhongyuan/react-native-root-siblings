@@ -1,3 +1,17 @@
+
+
+
+## Changed by Zhongyuan
+
+- Rename 'lib' directory to 'src'.('lib' directory is for es5 code (dist))
+- ES6 to ES5
+- based on version 1.3.0
+
+
+
+
+
+
 ### react-native-root-siblings
 ---
 

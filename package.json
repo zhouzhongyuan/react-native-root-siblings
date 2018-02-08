@@ -1,14 +1,26 @@
 {
-    "version": "3.0.0",
+    "version": "2.0.0",
     "name": "react-native-root-siblings",
     "repository": {
         "type": "git",
         "url": "git@github.com:magicismight/react-native-root-siblings.git"
     },
+    "scripts": {
+        "build": "babel src --out-dir lib"
+    },
     "license": "MIT",
+    "main": "./lib/SiblingsManager",
     "description": "react native root sibling elements manager",
     "dependencies": {
-        "static-container": "^1.0.0"
+        "static-container": "git+https://github.com/zhouzhongyuan/StaticContainer.git",
+        "wolfy87-eventemitter": "^5.2.2"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1"
     },
     "keywords": [
         "react-component",
