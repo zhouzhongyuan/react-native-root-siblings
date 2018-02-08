@@ -6,10 +6,14 @@
 - Rename 'lib' directory to 'src'.('lib' directory is for es5 code (dist))
 - ES6 to ES5
 - based on version 1.3.0
+- change 'wolfy87-eventemitter'  to 'eventemitter3'
 
+## Build
 
+```bash
+npm run build
 
-
+```
 
 
 ### react-native-root-siblings

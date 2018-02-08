@@ -12,8 +12,8 @@
     "main": "./lib/SiblingsManager",
     "description": "react native root sibling elements manager",
     "dependencies": {
-        "static-container": "git+https://github.com/zhouzhongyuan/StaticContainer.git",
-        "wolfy87-eventemitter": "^5.2.2"
+        "eventemitter3": "^3.0.1",
+        "static-container": "git+https://github.com/zhouzhongyuan/StaticContainer.git"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",

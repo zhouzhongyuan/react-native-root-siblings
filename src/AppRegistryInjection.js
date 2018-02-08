@@ -1,7 +1,7 @@
 import { StyleSheet, View, AppRegistry } from 'react-native';
 import React, { Component } from 'react';
 import StaticContainer from 'static-container';
-import EventEmitter from "wolfy87-eventemitter";
+import EventEmitter from "eventemitter3";
 
 const styles = StyleSheet.create({
     container: {
